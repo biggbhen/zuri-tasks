@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/410745be85.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <nav>
+          <h1>Register</h1>
+
+          <ul>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./register.html">Register</a></li>
+            <li><a href="./login.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <form action="submit">
+          <div>
+            <label for="firstName">FirstName</label>
+            <input type="text" id="firstName" required />
+          </div>
+          <div>
+            <label for="lastName">LastName</label>
+            <input type="text" id="lastName" required />
+          </div>
+
+          <div>
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" required placeholder="111-111-1111" />
+          </div>
+          <div>
+            <label for="gender"> Gender </label>
+            <select name="gender" id="gender">
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">other options</option>
+            </select>
+          </div>
+          <div>
+            <label for="country">Country</label>
+            <input type="text" id="country" required placeholder="Nigeria" />
+          </div>
+          <div>
+            <label for="state">State/Province</label>
+            <input type="text" id="state" required placeholder="Anambra" />
+          </div>
+          <div>
+            <label for="">Email</label>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="zuri@gmail.com"
+            />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              required
+              placeholder="******"
+            />
+          </div>
+          <div>
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="name" required placeholder="******" />
+          </div>
+          <button>Submit</button>
+        </form>
+      </section>
+    </section>
+  </body>
+</html>
